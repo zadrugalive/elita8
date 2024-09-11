@@ -72,6 +72,11 @@
                 });
             }
         }
+
+        // Automatically load the first stream
+        window.onload = function() {
+            loadStream('https://webtvstream.bhtelecom.ba/zadruga_live1.m3u8');
+        };
     </script>
 </body>
 </html>
